@@ -1,0 +1,158 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #fafafa;
+  color: #222;
+  max-width: 760px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+header {
+  padding: 20px 0 12px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+header img {
+  width: 160px;
+  margin: 0 auto 8px;
+  display: block;
+}
+
+header p {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #666;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 32px 0 12px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 32px 0 12px;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 20px 0 8px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+figure {
+  margin: 0 0 24px;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 14px -4px rgba(0, 0, 0, 0.18);
+}
+
+figure figcaption {
+  font-size: 0.65rem;
+  color: #777;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.featured {
+  border-left: 3px solid #f5a623;
+  background: #fff8e5;
+  padding: 12px 14px;
+  margin: 28px 0 36px;
+  font-size: 0.85rem;
+}
+
+.featured h2 {
+  margin-top: 0;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: #c55500;
+}
+
+.featured a {
+  color: #0b5a8a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.featured a:hover {
+  text-decoration: underline;
+}
+
+.ingredients {
+  border-top: 1px solid #e3e3e3;
+  padding-top: 24px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.ingredients ul {
+  list-style: disc;
+  margin-left: 22px;
+  margin-bottom: 20px;
+}
+
+.ingredients li {
+  margin-bottom: 6px;
+}
+
+.method {
+  border-top: 1px solid #e3e3e3;
+  padding-top: 28px;
+}
+
+.method ol {
+  padding-left: 20px;
+}
+
+.method li {
+  margin-bottom: 18px;
+}
+
+.method h3 {
+  margin-top: 0;
+}
+
+.readmore {
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.readmore a {
+  color: #0b5a8a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.readmore a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid #eee;
+  padding: 24px 16px;
+  font-size: 0.65rem;
+  color: #666;
+  background: #fff;
+}
